@@ -10,6 +10,13 @@ const sendMessage = async (req, res) => {
       receiverId,
       text,
     });
+    const message =
+  await Message.create({
+    senderId,
+    receiverId,
+    text,
+    status: "sent",
+  });
 
     res.status(201).json({
       message: "Message sent successfully",

@@ -1,17 +1,17 @@
 const mongoose =
   require("mongoose");
 
-const messageSchema =
+const groupMessageSchema =
   new mongoose.Schema(
     {
-      senderId: {
+      groupId: {
         type:
           mongoose.Schema.Types.ObjectId,
 
-        ref: "User",
+        ref: "Group",
       },
 
-      receiverId: {
+      senderId: {
         type:
           mongoose.Schema.Types.ObjectId,
 
@@ -31,18 +31,6 @@ const messageSchema =
         type: String,
         default: "",
       },
-
-      status: {
-  type: String,
-  enum: [
-    "sent",
-    "delivered",
-    "read",
-  ],
-  default: "sent",
-},
-
-
     },
     {
       timestamps: true,
@@ -51,6 +39,6 @@ const messageSchema =
 
 module.exports =
   mongoose.model(
-    "Message",
-    messageSchema
+    "GroupMessage",
+    groupMessageSchema
   );
