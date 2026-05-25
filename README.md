@@ -96,6 +96,8 @@ Typing Indicator
 Media Sharing
 
 <img width="1904" height="970" alt="Screenshot 2026-05-24 193242" src="https://github.com/user-attachments/assets/4d51bf08-e603-4ef1-a5d6-8198641bc0b6" />
+<img width="1919" height="975" alt="Screenshot 2026-05-24 193209" src="https://github.com/user-attachments/assets/239a7233-ddde-485e-b290-2666939f8d74" />
+<img width="1895" height="969" alt="Screenshot 2026-05-24 193014" src="https://github.com/user-attachments/assets/2b86cac2-6b70-4ef4-a438-1ba36d52b024" />
 
 
 🔥 Future Improvements
