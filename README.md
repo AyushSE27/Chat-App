@@ -95,7 +95,8 @@ Online Users
 Typing Indicator
 Media Sharing
 
-(Add screenshots here later)
+<img width="1904" height="970" alt="Screenshot 2026-05-24 193242" src="https://github.com/user-attachments/assets/4d51bf08-e603-4ef1-a5d6-8198641bc0b6" />
+
 
 🔥 Future Improvements
 Voice Messages
